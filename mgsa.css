@@ -41,4 +41,5 @@ body > footer nav ul li
 {
     display: inline-block;
     margin: 0 5em;
+    width: 15em;
 }
