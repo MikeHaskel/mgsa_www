@@ -39,6 +39,6 @@ body > footer nav ul
 }
 body > footer nav ul li
 {
-    display: inline;
+    display: inline-block;
     margin: 0 5em;
 }
