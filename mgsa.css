@@ -9,6 +9,11 @@ footer
     text-align: center;
 }
 
+dl dt
+{
+    font-weight: bold;
+}
+
 footer nav ul
 {
     display: block;
