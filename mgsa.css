@@ -13,6 +13,10 @@ body > header
 {
     text-align: center;
 }
+body > header > h1
+{
+    color: maroon;
+}
 
 body > footer
 {
