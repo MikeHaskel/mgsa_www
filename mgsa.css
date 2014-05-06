@@ -4,29 +4,28 @@ body
     color: black;
 }
 
-header
-{
-    text-align: center;
-}
-
-footer
-{
-    font-size: smaller;
-    text-align: center;
-}
-
 dl dt
 {
     font-weight: bold;
 }
 
-footer nav ul
+body > header
+{
+    text-align: center;
+}
+
+body > footer
+{
+    font-size: smaller;
+    text-align: center;
+}
+body > footer nav ul
 {
     display: block;
     padding: 0;
     width: 100%;
 }
-footer nav ul li
+body > footer nav ul li
 {
     display: inline;
     margin: 0 5em;
