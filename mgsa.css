@@ -4,25 +4,56 @@ body
     color: black;
 }
 
+h1
+{
+    color: maroon;
+    margin: 0 0 0.25em 0;
+}
+
+p
+{
+    margin: 0.5em 0 0 0;
+}
+.semantic-paragraph
+{
+    margin: 0.5em 0 0 0;
+}
+.semantic-paragraph p
+{
+    margin: 0;
+}
+.semantic-paragraph ul
+{
+    margin: 0.125em 0 0.125em 0;
+}
+
 dl dt
 {
     font-weight: bold;
+    color: maroon;
+}
+
+body > section
+{
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    padding: 2mm;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
 }
 
 body > header
 {
     text-align: center;
 }
-body > header > h1
-{
-    color: maroon;
-}
 
 body > footer
 {
     font-size: smaller;
     text-align: center;
-    border-top-style: groove;
 }
 body > footer nav ul
 {
