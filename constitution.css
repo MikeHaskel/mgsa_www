@@ -1,4 +1,7 @@
 section section
 {
-    margin-left: 2em;
+    margin-left: 1.5em;
+    border-left: solid;
+    border-left-width: thin;
+    padding-left: 2mm;
 }
