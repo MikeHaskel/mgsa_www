@@ -1,6 +1,6 @@
 body
 {
-    background-color: lavender;
+    background-color: lavenderblush;
     color: black;
 }
 
@@ -35,6 +35,8 @@ dl dt
 
 body > section
 {
+    background-color: lavender;
+
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
