@@ -61,6 +61,19 @@ body > header
     text-align: center;
 }
 
+ul#social
+{
+    display: block;
+    padding: 0;
+    margin: 2mm 0;
+    width: 100%;
+}
+ul#social li
+{
+    display: inline-block;
+    margin: 0 5mm;
+}
+
 body > footer
 {
     font-size: smaller;
