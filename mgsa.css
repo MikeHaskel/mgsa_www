@@ -64,14 +64,15 @@ body > header
 ul#social
 {
     display: block;
-    padding: 0;
     margin: 2mm 0;
     width: 100%;
+    line-height: 0;
 }
-ul#social li
+ul#social > li
 {
     display: inline-block;
     margin: 0 5mm;
+    vertical-align: top;
 }
 
 body > footer
