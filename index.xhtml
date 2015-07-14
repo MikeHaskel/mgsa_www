@@ -13,9 +13,11 @@
     <script src="https://apis.google.com/js/platform.js" async="" defer=""/>
     <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.4" id="facebook-jssdk" async="" defer=""/>
   </head>
-  <body>
+  <body itemscope="" itemtype="http://schema.org/Organization">
+    <meta itemprop="url" content="https://www3.nd.edu/~mgsa/"/>
+    <meta itemprop="logo" content="https://www3.nd.edu/~mgsa/dodecahedron.svg"/>
     <header>
-      <h1>Mathematics Graduate Student Association</h1>
+      <h1 itemprop="name">Mathematics Graduate Student Association</h1>
       <p>Representing and serving mathematics graduate students at the University of Notre Dame</p>
       <ul id="social">
 	<li><div class="g-follow" data-href="https://plus.google.com/112300298459820744922" data-rel="publisher" data-height="20"/></li>
@@ -24,8 +26,8 @@
     </header>
     <section>
       <h2>Purpose</h2>
-      <p>The Mathematics Graduate Student Association (<abbr>MGSA</abbr>) is the democratic organization of Notre Dame's math grad students. It works to ensure good studying and working conditions for students, serves as a point of contact for the <a href="https://math.nd.edu/">department</a> and broader <a href="http://gsu.nd.edu/">Graduate Student Union</a>, runs the <a href="gss/">graduate student seminar</a>, and organizes occasional social events. You can look at our <a href="constitution.xhtml">constitution</a>, if you're into that sort of thing.</p>
-      <p>Find us on <a href="https://plus.google.com/112300298459820744922">Google+</a> and <a href="https://www.facebook.com/NdMgsa">Facebook</a>.</p>
+      <p><span itemprop="description">The Mathematics Graduate Student Association (<abbr>MGSA</abbr>) is the democratic organization of Notre Dame's math grad students. It works to ensure good studying and working conditions for students, serves as a point of contact for the <a href="https://math.nd.edu/">department</a> and broader <a href="http://gsu.nd.edu/">Graduate Student Union</a>, runs the <a href="gss/">graduate student seminar</a>, and organizes occasional social events.</span> You can look at our <a href="constitution.xhtml">constitution</a>, if you're into that sort of thing.</p>
+      <p>Find us on <a itemprop="sameAs" href="https://plus.google.com/112300298459820744922">Google+</a> and <a itemprop="sameAs" href="https://www.facebook.com/NdMgsa">Facebook</a>.</p>
     </section>
     <section>
       <h2>Graduate Student Seminar</h2>
@@ -36,16 +38,31 @@
       <p>The following are the <abbr>MGSA</abbr> officers for the <time>2015</time>–<time>2016</time> academic year.</p>
       <dl>
 	<dt>President</dt>
-	<dd><a href="https://www3.nd.edu/~eburkard/">Edward Burkard</a> (<a href="mailto:eburkard@nd.edu">email</a>)</dd>
+	<dd itemprop="member" itemscope="" itemtype="http://schema.org/Person">
+	  <meta itemprop="jobTitle" content="President"/>
+	  <a itemprop="url" href="https://www3.nd.edu/~eburkard/"><span itemprop="name">Edward Burkard</span></a> (<a itemprop="email" href="mailto:eburkard@nd.edu">email</a>)
+	</dd>
 	<dt>Treasurer</dt>
-	<dd>PJ Jedlovec (<a href="mailto:pjedlove@nd.edu">email</a>)</dd>
+	<dd itemprop="member" itemscope="" itemtype="http://schema.org/Person">
+	  <meta itemprop="jobTitle" content="Treasurer"/>
+	  <span itemprop="name">PJ Jedlovec</span> (<a itemprop="email" href="mailto:pjedlove@nd.edu">email</a>)
+	</dd>
 	<dt>Secretary</dt>
-	<dd><a href="https://www3.nd.edu/~mhaskel/">Mike Haskel</a> (<a href="mailto:mike@haskels.org">email</a>)</dd>
+	<dd itemprop="member" itemscope="" itemtype="http://schema.org/Person">
+	  <meta itemprop="jobTitle" content="Secretary"/>
+	  <a itemprop="url" href="https://www3.nd.edu/~mhaskel/"><span itemprop="name">Mike Haskel</span></a> (<a itemprop="email" href="mailto:mike@haskels.org">email</a>)
+	</dd>
 	<dt>First-year representative</dt>
 	<dd>To be chosen in the fall</dd>
 	<dt><abbr title="Graduate Student Union">GSU</abbr> representatives</dt>
-	<dd>Kathryn Burton (<a href="mailto:kburton@nd.edu">email</a>)</dd>
-	<dd>Laura Wells (<a href="mailto:lwells@nd.edu">email</a>)</dd>
+	<dd itemprop="member" itemscope="" itemtype="http://schema.org/Person">
+	  <meta itemprop="jobTitle" content="GSU representative"/>
+	  <span itemprop="name">Kathryn Burton</span> (<a itemprop="email" href="mailto:kburton@nd.edu">email</a>)
+	</dd>
+	<dd itemprop="member" itemscope="" itemtype="http://schema.org/Person">
+	  <meta itemprop="jobTitle" content="GSU representative"/>
+	  <span itemprop="name">Laura Wells</span> (<a itemprop="email" href="mailto:lwells@nd.edu">email</a>)
+	</dd>
       </dl>
     </section>
     <footer>
