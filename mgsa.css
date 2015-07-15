@@ -4,22 +4,22 @@ body
     color: black;
 }
 
-h1
+h1, h2
 {
     color: maroon;
     margin: 0 0 0.25em 0;
+    font-size: xx-large;
 }
-h2
+section h2, article h2
 {
-    color: maroon;
-    margin: 0 0 0.25em 0;
+    font-size: x-large;
+}
+section section h2, section article h2, article section h2, article article h2
+{
+    font-size: large;
 }
 
-p
-{
-    margin: 0.5em 0 0 0;
-}
-.semantic-paragraph
+p, .semantic-paragraph
 {
     margin: 0.5em 0 0 0;
 }
@@ -42,7 +42,7 @@ dl dt
     color: maroon;
 }
 
-body > section
+body > section, body > article
 {
     background-color: lavender;
 
@@ -55,6 +55,16 @@ body > section
     margin-top: 2mm;
     margin-bottom: 2mm;
 }
+
+section section, section article, article section, article article
+{
+    margin-left: 1em;
+    margin-top: 0.125em;
+    border-left: solid;
+    border-left-width: thin;
+    padding-left: 2mm;
+}
+
 
 body > header
 {
@@ -92,4 +102,10 @@ body > footer nav ul li
     display: inline-block;
     margin: 0 5em;
     width: 15em;
+}
+
+iframe.gcalendar
+{
+    width: 100%;
+    height: 15cm;
 }
