@@ -71,21 +71,6 @@ body > header
     text-align: center;
 }
 
-ul#social
-{
-    display: block;
-    margin: 2mm 0;
-    padding: 0;
-    width: 100%;
-    line-height: 0;
-}
-ul#social > li
-{
-    display: inline-block;
-    margin: 1mm 5mm;
-    vertical-align: top;
-}
-
 body > footer
 {
     font-size: smaller;
