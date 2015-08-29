@@ -94,3 +94,15 @@ iframe.gcalendar
     width: 100%;
     height: 15cm;
 }
+
+ins, .ins-style
+{
+    color: red;
+    text-decoration: underline;
+}
+
+del, .del-style
+{
+    color: red;
+    text-decoration: line-through;
+}
